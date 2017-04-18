@@ -2,7 +2,7 @@ defmodule Quickquill.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", Quickquill.RoomChannel
+  channel "room:*", Quickquill.RoomChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
