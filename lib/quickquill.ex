@@ -9,7 +9,7 @@ defmodule Quickquill do
     # Define workers and child supervisors to be supervised
     children = [
       # Start the Ecto repository
-      supervisor(Quickquill.Repo, []),
+      # supervisor(Quickquill.Repo, []),
       # Start the endpoint when the application starts
       supervisor(Quickquill.Endpoint, []),
       # Start your own worker by calling: Quickquill.Worker.start_link(arg1, arg2, arg3)
