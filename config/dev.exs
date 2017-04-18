@@ -34,10 +34,10 @@ config :logger, :console, format: "[$level] $message\n"
 config :phoenix, :stacktrace_depth, 20
 
 # Configure your database
-config :quickquill, Quickquill.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "quickquill_dev",
-  hostname: "localhost",
-  pool_size: 10
+# config :quickquill, Quickquill.Repo,
+#   adapter: Ecto.Adapters.Postgres,
+#   username: "postgres",
+#   password: "postgres",
+#   database: "quickquill_dev",
+#   hostname: "localhost",
+#   pool_size: 10
